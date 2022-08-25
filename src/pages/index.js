@@ -1,9 +1,11 @@
 import React from "react"
-import Header from "../components/header"
+import Template from "../templates/Template"
 
 export default function Home() {
   return <>
-  <Header/>
+  <Template>
+    
+  </Template>
   
   </>
 }

@@ -13,7 +13,6 @@ query MyQuery {
       }
     }
   }
-  
 `)
 
 

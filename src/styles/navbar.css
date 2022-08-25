@@ -33,13 +33,13 @@
   }
   .admitbutton{
     position: absolute;
-    margin: 0;
-    padding:0.5rem;
+    margin-top: [-5rem];
+    padding:0.5rem 2rem 0.5rem 2rem;
     right:0;
     list-style-type: none;
     margin-top: 0;
     background-color:red;
-   border-radius: 3px;
+   border-radius: 2rem;
 
   }
   
@@ -73,6 +73,7 @@
     .hamburger {
       display: block;
     }
+   
   
     .navigation-menu ul {
       flex-direction: column;
@@ -89,6 +90,13 @@
     .navigation-menu li {
       text-align: center;
       margin: 0;
+    }
+    .admitbutton{
+      
+      text-align: center;
+      position: relative;
+      padding: 0;
+      
     }
   
     .navigation-menu li a {

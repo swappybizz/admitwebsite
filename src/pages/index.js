@@ -6,6 +6,7 @@ import Circles from "../components/Circular"
 import ThreeMiddleTextTwoButton from "../components/ThreeMiddleTextTwoButton"
 import Counter from "../components/Counter"
 import Outro from "../components/Outro"
+import BlogHome from "../components/BlogHome"
 
 const toptext = {
   top: "fremtidsrettet forretningsutvikling",
@@ -40,13 +41,14 @@ const tmbttext2 = {
 export default function Home() {
   return (
     <>
-    
+
       <Template>
         <Hero />
         <ThreeMiddleTextTwoButton props={toptext} />
         <Circles />
         <ThreeMiddleTextTwoButton props={midtext} />
         {/* <Stories/> */}
+        <BlogHome/>
         <ThreeMiddleTextTwoButton props={tmbttext} />
         <Counter />
         <ThreeMiddleTextTwoButton props={tmbttext2} />

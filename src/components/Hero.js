@@ -21,7 +21,7 @@ const Hero = () => {
                 <div className="flex justify-center">
                   <button
                     id="stick-title"
-                    className="inline-flex text-white bg-admit-blue border-0 py-2 px-6 focus:outline-none hover:bg-admit-blue-pressed rounded-full text-lg"
+                    className="inline-flex text-white bg-admit-blue border-0 py-2 px-12 focus:outline-none hover:bg-admit-blue-pressed rounded-full text-lg"
                   >
                     Se Hvordan
                   </button>

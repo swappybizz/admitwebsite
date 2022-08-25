@@ -11,7 +11,13 @@ import React from "react";
 const Circular = () => {
   return (
     <>
-      <div data-cursor-size="10px" data-cursor-color="#61dbfb">
+      <div 
+      
+      // data-cursor-size="10px"
+      
+      // data-cursor-color="#61dbfb"
+      
+      >
       <section   className="text-gray-600 body-font">
         <div className="flex px-5 py-24 justify-center">
           <div className="flex flex-wrap -m-4">
@@ -78,7 +84,7 @@ const Circular = () => {
 
               <button 
             //   data-cursor-magnetic
-               className="flex mx-auto mt-6 text-white bg-admit-blue border-0 py-2 px-5 focus:outline-none hover:bg-admit-blue-pressed rounded-full">
+               className="flex mx-auto mt-6 text-white bg-admit-blue border-0 py-2 px-12 focus:outline-none hover:bg-admit-blue-pressed rounded-full">
                 Kontact Oss
               </button>
             </div>

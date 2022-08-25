@@ -1,5 +1,6 @@
 import React, { useState } from "react"
 import "../styles/navbar.css"
+import {Link} from "gatsby"
 
 export default function Navbar() {
   const [isNavExpanded, setIsNavExpanded] = useState(false)
@@ -36,22 +37,22 @@ export default function Navbar() {
       >
         <ul>
           <li>
-            <a href="/home">Admit Avatar</a>
+            <Link to="/avatar">Admit Avatar</Link>
           </li>
           <li>
-            <a href="/about">Admit Studio</a>
+            <Link to="/studio">Admit Studio</Link>
           </li>
           <li>
-            <a href="/contact">Admit Lounge</a>
+            <Link to="/lounge">Admit Lounge</Link>
           </li>
           <li>
-            <a href="/contact">Våre Rådgivere</a>
+            <Link to="/consult">Våre Rådgivere</Link>
           </li>
           <li>
-            <a href="/contact">om admit</a>
+            <Link to="/about">om admit</Link>
           </li>
           <li className="admitbutton">
-            <a href="/contact">Bli Kjent med</a>
+            <Link to="/contact">Bli Kjent med</Link>
           </li>
 
 

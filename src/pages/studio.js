@@ -4,10 +4,9 @@ import ThreeMiddleTextTwoButton from "../components/ThreeMiddleTextTwoButton"
 import ThreeMiddleTextTwoButtonSmall from "../components/ThreeMiddleTextTwoButtonSmall"
 import WeAdmit from "../components/WeAdmit"
 const text1 = {
-  top: "PRODUSER KVALITETSINNHOLD HOS",
+  top: "DER MULIGHETER DELES",
   middle: "Admit Studio",
-  bottom:
-    "Bruksområdene for vårt Smart studio er uendelige og det er enkelt og intuitiv i bruk. Ønsker du å livestreame et webinar for en stor forsamling? Null problem. Spill inn forklaringsvideoer til dine kunder, blås konkurrentene dine av banen i salgsmøter, eller spill inn videoer til intern opplæring av dine ansatte.",
+  bottom:"Bruksområdene for vårt Smart studio er uendelige og det er enkelt og intuitiv i bruk.Ønsker du å livestreame et webinar for en stor forsamling? Null problem. Spill inn forklaringsvideoer til dine kunder, blås konkurrentene dine av banen i salgsmøter, eller spill inn videoer til intern opplæring av dine ansatte."
 }
 
 const text2 = {
@@ -25,7 +24,7 @@ const text4 = {
 }
 
 const text6 = {
-  middle :"Kom i gang!",
+  middle :"Kom i gang",
   button1: "Book Studio",
   
 }

@@ -32,7 +32,7 @@ const Circular = () => {
 
               // data-cursor-background-image={System} data-cursor-size="250px"
               >
-                <Link to="/system" className=" flex mx-5 w-36 h-36 border-admit-blue border-2 rounded-full justify-center text-center items-center my-auto py-auto">
+                <Link to="/systems" className=" flex mx-5 w-36 h-36 border-admit-blue border-2 rounded-full justify-center text-center items-center my-auto py-auto">
                   <p className="m-auto p-auto">Systemtenkning</p>
                 </Link>
               </div>

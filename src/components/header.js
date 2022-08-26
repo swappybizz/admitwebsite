@@ -1,6 +1,6 @@
 /* This example requires Tailwind CSS v2.0+ */
-import React, { Fragment } from "react"
-import { Disclosure, Menu, Transition } from "@headlessui/react"
+import React from "react"
+import { Disclosure} from "@headlessui/react"
 import {MenuIcon, XIcon } from "@heroicons/react/outline"
 import {Link} from "gatsby"
 

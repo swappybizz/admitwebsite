@@ -59,9 +59,6 @@ const Avatar = () => {
         <ThreeMiddleTextTwoButton
         props= {text6}/>
         <WeAdmit/>
-
-
-
     </Template>
   )
 }

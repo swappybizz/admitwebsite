@@ -1,5 +1,4 @@
 import React, { useState } from "react"
-import "../styles/navbar.css"
 import {Link} from "gatsby"
 
 export default function Navbar() {

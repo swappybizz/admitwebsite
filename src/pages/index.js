@@ -7,6 +7,7 @@ import ThreeMiddleTextTwoButton from "../components/ThreeMiddleTextTwoButton"
 import Counter from "../components/Counter"
 import Outro from "../components/Outro"
 import BlogHome from "../components/BlogHome"
+import FullPageImage from "../components/FullPageImage"
 
 const toptext = {
   top: "fremtidsrettet forretningsutvikling",
@@ -29,14 +30,7 @@ const tmbttext = {
   button1: "LES MER",
   button2: "SE VIDEO",
 }
-const tmbttext2 = {
-  top: "DIGITAL MEDARBEIDER",
-  middle: "Admit Avatar",
-  bottom:"Admit Avatar er vår samhandlingsplattform ut mot kunde. En digital medarbeider som gir umiddelbar tilgang til relevant og ønsket kompetanse.Avlaster og frigir verdifull tid i en hektisk hverdag. Aldri mer enn et tastetrykk unna.", 
-   
-  button1: "LES MER",
- 
-}
+
 
 export default function Home() {
   return (
@@ -51,7 +45,8 @@ export default function Home() {
         <BlogHome/>
         <ThreeMiddleTextTwoButton props={tmbttext} />
         <Counter />
-        <ThreeMiddleTextTwoButton props={tmbttext2} />
+        <FullPageImage/>
+        
         <Outro/>
       </Template>
     </>

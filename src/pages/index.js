@@ -6,7 +6,7 @@ import Circles from "../components/Circular"
 import ThreeMiddleTextTwoButton from "../components/ThreeMiddleTextTwoButton"
 import Counter from "../components/Counter"
 import Outro from "../components/Outro"
-import BlogHome from "../components/BlogHome"
+// import BlogHome from "../components/BlogHome"
 // import FullPageImage from "../components/FullPageImage"
 
 const toptext = {

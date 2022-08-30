@@ -19,7 +19,7 @@ export default function Example() {
   return (
     <Disclosure as="nav" className="bg-white transition-all duration-500">
       {({ open }) => (
-        <>
+        <div className="transition-colors duration-500">
           <div className="max-w-7xl mx-auto px-2 sm:px-6 lg:px-8">
             <div className="relative flex items-center justify-between h-16">
               <div className="absolute inset-y-0 left-0 flex items-center sm:hidden">
@@ -27,18 +27,18 @@ export default function Example() {
                 <Disclosure.Button className="inline-flex items-center justify-center p-2 rounded-md text-gray-900 hover:text-gray-700 hover:bg-gray-200 focus:outline-none focus:ring-2 focus:ring-inset focus:ring-white">
                   <span className="sr-only">Open main menu</span>
                   {open ? (
-                    <XIcon className="block h-6 w-6" aria-hidden="true" />
+                    <XIcon className="block h-6 w-6 transition-all duration-500" aria-hidden="true" />
                   ) : (
-                    <MenuIcon className="block h-6 w-6" aria-hidden="true" />
+                    <MenuIcon className="block h-6 w-6 transition-all duration-500" aria-hidden="true" />
                   )}
                 </Disclosure.Button>
               </div>
               <Link
                 to="/"
-                className="flex-shrink-0 hidden items-start justify-center left-0 sm:hidden md:flex"
+                className="flex-shrink-0 translate-x-10 items-start justify-center left-0 sm:hidden md:flex md:translate-x-5"
               >
                 <img
-                  className="block lg:hidden h-8 w-auto"
+                  className="block lg:hidden h-6 w-auto"
                   src="https://uploads-ssl.webflow.com/602535e288aec462623e79b5/608168cc4904e8cfd98c68fe_Admit%20logo%202020%20farger.png"
                   alt="Workflow"
                 />
@@ -72,7 +72,7 @@ export default function Example() {
               <div className="absolute inset-y-0 right-0 flex items-center pr-2 sm:static sm:inset-auto sm:ml-6 sm:pr-0">
                 <a
                   href="https://calendly.com/admitas/"
-                  className="inline-flex items-center bg-admit-red border-0 py-2 px-4 focus:outline-none hover:outline transition-b duration-500 hover:bg-admit-blue text-white rounded-full text-base font-bold mt-4 md:mt-0"
+                  className="inline-flex items-center bg-admit-red border-0 py-2 px-4 focus:outline-none hover:outline transition-b duration-500 hover:bg-admit-blue text-white rounded-full text-base font-semibold mt-0 md:mt-0"
                 >
                   Booking
                   <svg
@@ -111,7 +111,7 @@ export default function Example() {
               ))}
             </div>
           </Disclosure.Panel>
-        </>
+        </div>
       )}
     </Disclosure>
   )

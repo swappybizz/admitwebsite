@@ -1,7 +1,7 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
-
+// remove these after dev
 .navigation {
     position: relative;
     display: flex;

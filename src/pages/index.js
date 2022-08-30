@@ -42,7 +42,7 @@ export default function Home() {
         <Circles />
         <ThreeMiddleTextTwoButton props={midtext} />
         {/* <Stories/> */}
-        <BlogHome/>
+        {/* <BlogHome/> */}
         <ThreeMiddleTextTwoButton props={tmbttext} />
         <Counter />
         {/* <FullPageImage/> */}

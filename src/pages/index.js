@@ -7,7 +7,7 @@ import ThreeMiddleTextTwoButton from "../components/ThreeMiddleTextTwoButton"
 import Counter from "../components/Counter"
 import Outro from "../components/Outro"
 import BlogHome from "../components/BlogHome"
-import FullPageImage from "../components/FullPageImage"
+// import FullPageImage from "../components/FullPageImage"
 
 const toptext = {
   top: "fremtidsrettet forretningsutvikling",
@@ -45,7 +45,7 @@ export default function Home() {
         <BlogHome/>
         <ThreeMiddleTextTwoButton props={tmbttext} />
         <Counter />
-        <FullPageImage/>
+        {/* <FullPageImage/> */}
         
         <Outro/>
       </Template>
